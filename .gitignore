@@ -1,12 +1,14 @@
+@"
 # dependencies
 node_modules/
 .pnpm-debug.log*
 yarn.lock
 package-lock.json
 
-# production
+# build output
 dist/
 
-# misc
-.DS_Store
+# env & misc
 .env
+.DS_Store
+"@ | Set-Content -NoNewline .gitignore
