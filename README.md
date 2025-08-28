@@ -58,6 +58,4 @@ Endpoint used:
 https://www.googleapis.com/books/v1/volumes?q=<SEARCH_TERM>&startIndex=<N>&maxResults=20
 ```
 
-## Development Process with AI
 
-This project was built with support from a conversational AI (LLM). I used ChatGPT to brainstorm features, refine the UI, and troubleshoot implementation. You can view the full interaction here: [ChatGPT Conversation](https://chatgpt.com/share/68b02a3b-5948-8012-8a5d-c8f054b19203)
