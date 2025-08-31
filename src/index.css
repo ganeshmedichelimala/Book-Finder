@@ -2,11 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { --card:#0b1020; --panel:#0f142a; }
-html, body, #root { height: 100%; }
-.container-max { max-width: 1100px; }
-.card { @apply bg-slate-900/60 border border-slate-800 rounded-2xl; }
-.input { @apply bg-slate-900/80 border border-slate-800 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-brand-500; }
-.btn { @apply rounded-xl px-4 py-3 bg-brand-600 hover:bg-brand-500 transition; }
-.badge { @apply inline-flex items-center gap-2 rounded-full border border-slate-700 px-2 py-1 text-xs; }
-.link { @apply underline decoration-dotted underline-offset-4 hover:text-brand-500; }
+:root {
+  --card: #0b1020;
+  --panel: #0f142a;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+.container-max {
+  max-width: 1100px;
+}
+.card {
+  @apply bg-slate-900/60 border border-slate-800 rounded-2xl;
+}
+.input {
+  @apply bg-slate-900/80 border border-slate-800 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-brand-500;
+}
+.btn {
+  @apply rounded-xl px-4 py-3 bg-brand-600 hover:bg-brand-500 transition;
+}
+.badge {
+  @apply inline-flex items-center gap-2 rounded-full border border-slate-700 px-2 py-1 text-xs;
+}
+.link {
+  @apply underline decoration-dotted underline-offset-4 hover:text-brand-500;
+}
