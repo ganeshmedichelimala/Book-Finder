@@ -13,7 +13,7 @@ A fast, clean Book Finder that uses the **Google Books API**.
 
 ## 🚀 Live Demo
 
-👉 [Book Finder](https://book-finder-f22zi0eli-ganesh-medichelimalas-projects.vercel.app)
+👉 [Book Finder](https://book-finder-eight-puce.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -57,5 +57,3 @@ Endpoint used:
 ```
 https://www.googleapis.com/books/v1/volumes?q=<SEARCH_TERM>&startIndex=<N>&maxResults=20
 ```
-
-
